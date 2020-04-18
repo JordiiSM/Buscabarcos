@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Buscabarcos</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+            
+            <header>   
+                <div id="banner"><img src="img/buscabarcos.png" alt="logo"></div>             
+            </header>
+            <div id=menustart>
+                <h2>Numero de jugadores</h2>
+                <select id="nplayers">
+                        <option>2 PLAYER</option>
+                        <option>3 PLAYERS</option>
+                        <option>4 PLAYERS</option>
+                </select>
+                <h2>Tamaño del tablero</h2>
+                <select id="tsize">
+                        <option>4x4</option>
+                        <option>5x5</option>
+                        <option>6x6</option>
+                </select>
+                <button onclick="startGame()">Start Game</button>
+            </div>
+            
+        <h3 id="player"> </h3>
+        <div id="tablero"></div>
+        <div id="tablero5"></div>
+        <div id="tablero6"></div>
+        
+    
+        <script src="js/script.js">
+        </script>
+    </body>
+    
+    
+</html>
